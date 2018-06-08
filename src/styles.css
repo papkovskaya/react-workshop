@@ -1,0 +1,44 @@
+.to-do-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: azure;
+}
+
+.title {
+  background-color: aqua;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.search-box {
+  display: flex;
+}
+
+.btn {
+  padding: 5px;
+  border: 2px solid burlywood;
+  outline: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.btnAdd {
+  background-color: floralwhite;
+}
+
+.btnRemove {
+  padding: 3px;
+  background-color: floralwhite;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
